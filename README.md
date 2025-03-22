@@ -1,9 +1,10 @@
-<<<<<<< HEAD
-# Mishri Boutique - E-commerce Website
+# 🛍️ Mishri Boutique – E-commerce Website
 
-A modern e-commerce website for sarees and kurtis built with Flask and React.
+A modern and elegant e-commerce platform for sarees and kurtis, built using **Flask** (backend) and **React** (frontend).
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 ```
 Ecommerce/
@@ -17,76 +18,82 @@ Ecommerce/
     └── src/
 ```
 
-## Backend Setup
+---
 
-1. Create a virtual environment:
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
+## ⚙️ Backend Setup
 
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+1. **Create and activate virtual environment**
+   ```bash
+   cd backend
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-3. Create a `.env` file in the backend directory with the following variables:
-```
-DATABASE_URL=sqlite:///boutique.db
-JWT_SECRET_KEY=your-secret-key
-```
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Initialize the database:
-```bash
-flask db init
-flask db migrate
-flask db upgrade
-```
+3. **Set up environment variables**
 
-5. Run the backend server:
-```bash
-python app.py
-```
+   Create a `.env` file in the `backend` directory and add:
+   ```
+   DATABASE_URL=sqlite:///boutique.db
+   JWT_SECRET_KEY=your-secret-key
+   ```
 
-## Frontend Setup
+4. **Initialize the database**
+   ```bash
+   flask db init
+   flask db migrate
+   flask db upgrade
+   ```
 
-1. Install dependencies:
-```bash
-cd frontend
-npm install
-```
+5. **Run the backend server**
+   ```bash
+   python app.py
+   ```
 
-2. Start the development server:
-```bash
-npm start
-```
+---
 
-## Features
+## 💻 Frontend Setup
 
-- Product catalog with categories
-- User authentication
-- Shopping cart functionality
-- Responsive design
-- Image upload and management
-- Admin dashboard
+1. **Install dependencies**
+   ```bash
+   cd frontend
+   npm install
+   ```
 
-## Technologies Used
+2. **Start the development server**
+   ```bash
+   npm start
+   ```
 
-### Backend
-- Flask
-- SQLAlchemy
-- Flask-JWT-Extended
-- Flask-CORS
-- Flask-Migrate
+---
 
-### Frontend
-- React
-- Material-UI
-- Redux Toolkit
-- React Router
+## 🌟 Features
+
+- 📦 Product catalog with categories  
+- 👩‍💼 User authentication  
+- 🛒 Shopping cart functionality  
+- 📱 Fully responsive design  
+- 📷 Image upload and management  
+- 🛠️ Admin dashboard for store management  
+
+---
+
+## 🧰 Tech Stack
+
+### 🔙 Backend
+- Flask  
+- SQLAlchemy  
+- Flask-JWT-Extended  
+- Flask-CORS  
+- Flask-Migrate  
+
+### 🔜 Frontend
+- React  
+- Material-UI  
+- Redux Toolkit  
+- React Router  
 - Axios
-=======
-# Ecommerce
-An Ecommerce Boutique Website
->>>>>>> 2361f90e26c798d935fc7a84e1ac1df99f348c1f
