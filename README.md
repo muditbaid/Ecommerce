@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Mishri Boutique - E-commerce Website
 
 A modern e-commerce website for sarees and kurtis built with Flask and React.
@@ -85,3 +86,7 @@ npm start
 - Redux Toolkit
 - React Router
 - Axios
+=======
+# Ecommerce
+An Ecommerce Boutique Website
+>>>>>>> 2361f90e26c798d935fc7a84e1ac1df99f348c1f
